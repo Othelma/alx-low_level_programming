@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-	int num[10] = "0123456789";
 	int i;
 
-	for (i = 0; i < 10; i++)
+	printf("The single digit numbers of base 10 are:\n");
+
+	for (i = 1; i < 10; i++)
 	{
-		printf("%d\n", n);
+		printf("%d \t", i);
 	}
 	return (0);
 }
