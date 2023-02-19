@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - program that prints all single digit numbers of base 10 starting from 0.
+ * main - A program that prints all single digit numbers of base 10 starting from 0.
  *
  * Return: 0
  */
@@ -9,11 +9,12 @@ int main(void)
 {
 	int i;
 
-	printf("The single digit numbers of base 10 are:\n");
+	printf("The single digits numbers of base 10 are:\n");
 
-	for (i = 1; i < 10; i++)
+	for (i = 0; i < 10; i++)
 	{
-		printf("%d \t", i);
+		printf("%d ", i);
 	}
+	printf("\n");
 	return (0);
 }
