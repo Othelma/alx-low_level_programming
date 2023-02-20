@@ -7,14 +7,11 @@
  */
 int main(void)
 {
-	int i;
+	int num;
 
-	printf("The single digits numbers of base 10 are:\n");
-
-	for (i = 0; i < 10; i++)
-	{
-		printf("%d ", i);
-	}
+	for (num = 0; num <= 9; num++)
+	printf("%d", num);
+	
 	printf("\n");
 	return (0);
 }
