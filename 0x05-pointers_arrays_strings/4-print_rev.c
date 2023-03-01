@@ -16,7 +16,7 @@ void print_rev(char *s)
 		s++;
 	}
 	s--;
-	for (i = school; i > 0; 0--)
+	for (i = school; i > 0; i--)
 	{
 		_putchar(*s);
 		s--;
