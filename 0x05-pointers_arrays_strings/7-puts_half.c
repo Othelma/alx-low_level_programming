@@ -13,7 +13,7 @@ void puts_half(char *str)
 
 	great = 0;
 
-	for (i = 0; str[a] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 		great++;
 
 	n = (great / 2);
@@ -21,7 +21,7 @@ void puts_half(char *str)
 	if ((n % 2) == 1)
 		n = ((great - 1) / 2);
 
-	for (i = n; str[i] ! '\0'; i++)
+	for (i = n; str[i] != '\0'; i++)
 		_putchar(str[i]);
 	_putchar('\n');
 }
