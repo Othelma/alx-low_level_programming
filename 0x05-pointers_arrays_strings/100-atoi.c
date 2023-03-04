@@ -20,14 +20,14 @@ int _atoi(char *s)
 	while (s[len] != '\0')
 		len++;
 
-	while (i < len && c == 0)
+	while (a < len && c == 0)
 	{
 		if (s[a] == '-')
 			++b;
 		if (s[a] >= '0' && s[a] <= '9')
 		{
 			d = s[a] - '0';
-			if (b % 2i)
+			if (b % 2a)
 				d = -d;
 			n = n * 10 + d;
 			c = 1;
